@@ -46,5 +46,6 @@ public class EjemploSwing
                 // hacer visible JFrame
 
                 miJFrame.setVisible(true);
+                //Hoola
             }
     }
