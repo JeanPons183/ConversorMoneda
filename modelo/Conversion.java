@@ -4,8 +4,6 @@ import javax.swing.JOptionPane;
 
 public class Conversion 
     {   
-        private static int i = 0;
-
         public Conversion()
             {
 
@@ -25,13 +23,13 @@ public class Conversion
                 switch(ase)
                     {
                         case 0:
-                            Moneda mon = new Moneda();
+                            new Moneda();
 
                         case 1:
-                            Temperatura temp = new Temperatura();
+                        new Temperatura();
 
                         case 2:
-                            Distancia dist = new Distancia();
+                            new Distancia();
                     }
             }
             

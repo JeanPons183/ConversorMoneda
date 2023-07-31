@@ -18,12 +18,7 @@
         ¿tal vez pueda añadir a mi programa otros tipos de conversiones como temperatura por ejemplo?
  */
 
-
-import java.util.Arrays;
-
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-
 
 public class modelo extends JFrame
     {
