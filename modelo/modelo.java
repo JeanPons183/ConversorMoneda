@@ -39,7 +39,5 @@ public class modelo extends JFrame
                         continuar= a.continuar();
                         // ---------------------------------------------------------------------------------                        
                     }
-                
-
             }
     }

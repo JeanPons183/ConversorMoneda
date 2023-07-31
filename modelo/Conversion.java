@@ -37,10 +37,14 @@ public class Conversion
             
             public boolean continuar()
                 {
-                    i++;
-                    System.out.println(i);
-                    if (i==2)
-                        return false;
+                    int a = JOptionPane.showConfirmDialog(null,
+                    "Desea continuar", "", JOptionPane.YES_NO_OPTION);
+                    
+                    if (a!=0)
+                        {
+                            JOptionPane.showMessageDialog(null, "Saliendo del programa", "Salida", JOptionPane.INFORMATION_MESSAGE); 
+                            return false;
+                        }
                     else
                         return true;
                 }
