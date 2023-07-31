@@ -4,6 +4,8 @@ import javax.swing.JOptionPane;
 
 public class Conversion 
     {   
+        private static int i = 0;
+
         public Conversion()
             {
 
@@ -18,9 +20,7 @@ public class Conversion
                                         JOptionPane.INFORMATION_MESSAGE, 
                                         null,seleccion, seleccion[0]);
 
-                System.out.println(tipoSel);
                 int ase = Arrays.asList(seleccion).indexOf(tipoSel);        // De esta forma obtenemos el valor de la seleccion
-                System.out.println(ase);
                 
                 switch(ase)
                     {
@@ -34,4 +34,14 @@ public class Conversion
                             Distancia dist = new Distancia();
                     }
             }
+            
+            public boolean continuar()
+                {
+                    i++;
+                    System.out.println(i);
+                    if (i==2)
+                        return false;
+                    else
+                        return true;
+                }
     }

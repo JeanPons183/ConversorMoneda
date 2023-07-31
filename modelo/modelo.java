@@ -29,11 +29,14 @@ public class modelo extends JFrame
     {
         public static void main(String[] args) 
             {
-                // while(continuar == True)
+                boolean continuar = true;
+
+                while(continuar)
                     {
                         // Menu principal
                         // ---------------------------------------------------------------------------------
                         Conversion a = new Conversion();
+                        continuar= a.continuar();
                         // ---------------------------------------------------------------------------------                        
                     }
                 
