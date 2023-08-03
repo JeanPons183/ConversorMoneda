@@ -52,7 +52,6 @@ public class Moneda
                 // ---------------------------------------------------------------------------------
                 int Sel = Arrays.asList(conversion).indexOf(conversionSel);
 
-                System.out.println(Sel);
                 switch(Sel)
                     {
                         case 0:
