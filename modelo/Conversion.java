@@ -2,33 +2,48 @@ import java.util.Arrays;
 
 import javax.swing.JOptionPane;
 
-public class Conversion {   
+public class Conversion 
+    {   
+        public Conversion()
+            {
 
-    private int seleccion;
+                // Menu principal
+                // ---------------------------------------------------------------------------------
+                String[] seleccion = { "Moneda", "Temperatura", "Distancia" };
 
-    public static int MenuPrincipal()
-        {
+                // INFORMATION_MESSAGE type static int?, pero me retorna el String :/
 
-            // Menu principal
-            // ---------------------------------------------------------------------------------
-            String[] seleccion = { "Moneda", "Temperatura", "Distancia" };
+                String tipoSel = (String) JOptionPane.showInputDialog(null,
+                                        "Seleccione una opción de conversión", "Menu",
+                                        JOptionPane.INFORMATION_MESSAGE, 
+                                        null,seleccion, seleccion[0]);
 
-            // INFORMATION_MESSAGE type static int?, pero me retorna el String :/
+                int ase = Arrays.asList(seleccion).indexOf(tipoSel);        // De esta forma obtenemos el valor de la seleccion
+                
+                switch(ase)
+                    {
+                        case 0:
+                            new Moneda();
 
-            String tipoSel = (String) JOptionPane.showInputDialog(null,
-                                    "Seleccione una opción de conversión", "Menu",
-                                    JOptionPane.INFORMATION_MESSAGE, 
-                                    null,seleccion, seleccion[0]);
+                        case 1:
+                        new Temperatura();
 
-            System.out.println(tipoSel);
-            int ase = Arrays.asList(seleccion).indexOf(tipoSel);        // De esta forma obtenemos el valor de la seleccion
-            System.out.println(ase);
+                        case 2:
+                            new Distancia();
+                    }
+            }
             
-
-            // ---------------------------------------------------------------------------------
-
-            return ase;
-        }
-
-    
-}
+            public boolean continuar()
+                {
+                    int a = JOptionPane.showConfirmDialog(null,
+                    "Desea continuar", "", JOptionPane.YES_NO_OPTION);
+                    
+                    if (a!=0)
+                        {
+                            JOptionPane.showMessageDialog(null, "Saliendo del programa", "Salida", JOptionPane.INFORMATION_MESSAGE); 
+                            return false;
+                        }
+                    else
+                        return true;
+                }
+    }

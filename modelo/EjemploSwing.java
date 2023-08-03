@@ -1,9 +1,9 @@
-import java.awt.GridBagLayout;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
+// import java.awt.GridBagLayout;
+// import javax.swing.JFrame;
+// import javax.swing.JLabel;
+// import javax.swing.JOptionPane;
+// import javax.swing.JPanel;
+// import javax.swing.JTextArea;
 
 public class EjemploSwing 
     {
@@ -55,7 +55,7 @@ public class EjemploSwing
                 // QUESTION_MESSAGE
                 // PLAIN_MESSAGE
 
-                JOptionPane.showMessageDialog(null, "Esto es el mensaje que sale", "Probanding", JOptionPane.INFORMATION_MESSAGE); 
+                // JOptionPane.showMessageDialog(null, "Esto es el mensaje que sale", "Probanding", JOptionPane.INFORMATION_MESSAGE); 
 
                 // JOptionPane.showInternalMessageDialog(frame, "information",
                                                 // "information", JOptionPane.INFORMATION_MESSAGE);
@@ -65,6 +65,10 @@ public class EjemploSwing
                 // JOptionPane.showOptionDialog(null, "Click OK to continue", "Warning",
                 // JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE,
                 // null, options, options[0]);
+                // System.out.println();
+                // int a = JOptionPane.showConfirmDialog(null,
+                // "Desea continuar", "", JOptionPane.YES_NO_OPTION);
+                // System.out.println(a);
                 
                 // // Esto es entrada de texto
                 // String inputValue = JOptionPane.showInputDialog("Please input a value");    
