@@ -44,7 +44,6 @@ public class EjemploSwing
                 // miJFrame.add(miJPanel);
 
                 // // hacer visible JFrame
-                Prueba de lo de compu
 
                 // miJFrame.setVisible(true);
                 // //Hoola
