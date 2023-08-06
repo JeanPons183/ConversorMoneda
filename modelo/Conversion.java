@@ -24,12 +24,15 @@ public class Conversion
                     {
                         case 0:
                             new Moneda();
+                            break;
 
                         case 1:
                         new Temperatura();
+                            break;
 
                         case 2:
                             new Distancia();
+                            break;
                     }
             }
             

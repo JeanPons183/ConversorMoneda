@@ -39,49 +39,49 @@ public class Distancia
                         case 0:
                             // Resultado Kilometros a Millas
                             resultado = valor*km2milla;
-                            JOptionPane.showMessageDialog(null, "Temperatura de " + resultado + " °C", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Millas", 
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 1:
                             // Resultado Euros Pesos
                             resultado = valor*m2yarda;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Euros", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Yardas", 
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 2:
                             // Resultado libras Pesos
                             resultado = valor*cm2pulgada;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Libras", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Pulgadas",  
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 3:
                             // Yen Pesos
                             resultado = valor*cm2pie;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Yenes", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Pies", 
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 4:
                             // Resultado Kilometros a Millas
                             resultado = valor/km2milla;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Dolares", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Kilometros", 
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 5:
                             // Resultado Euros Pesos
                             resultado = valor/m2yarda;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Euros", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Metros", 
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 6:
                             // Resultado libras Pesos
                             resultado = valor/cm2pulgada;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Libras", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Centimetros",  
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                         case 7:
                             // Yen Pesos
                             resultado = valor/cm2pie;
-                            JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Yenes", 
+                            JOptionPane.showMessageDialog(null, "La conversion es de " + resultado + " Centimetros",  
                                             "Conversión", JOptionPane.INFORMATION_MESSAGE); 
                             break;
                     }                
